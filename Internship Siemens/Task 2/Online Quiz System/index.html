@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main content of the webpage -->
+    <main class="main">
+      <!-- Header section containing the logo -->
+      <header class="header">
+        <p class="logo">BeniP.</p>
+      </header>
+
+      <!-- Container for quiz and home sections -->
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Good Luck!</h1>
+            <div class="quiz-header">
+              <span>You are the best</span>
+              <span class="header-score">Score: 0 / 50</span>
+            </div>
+            <h2 class="question-text"></h2>
+
+            <!-- Options for the quiz -->
+            <div class="option-list">
+              <div class="option">
+                <span></span>
+              </div>
+              <div class="option">
+                <span></span>
+              </div>
+              <div class="option">
+                <span></span>
+              </div>
+              <div class="option">
+                <span></span>
+              </div>
+            </div>
+
+            <!-- Footer for quiz section with question count and next button -->
+            <div class="quiz-footer">
+              <span class="question-total">1 of 50 Questions</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+
+          <!-- Result box displayed at the end of the quiz -->
+          <div class="result-box">
+            <h2>Quiz Result!</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+
+              <span class="score-text">Your Score 0 out of 50</span>
+            </div>
+
+            <!-- Buttons for retrying the quiz or going to the home page -->
+            <div class="buttons">
+              <button class="tryAgain-btn">Try Again</button>
+              <button class="goHome-btn">Go To Home</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Home section with introductory content -->
+        <section class="home">
+          <div class="home-content">
+            <h1>Online Quiz</h1>
+            <p>
+              Let's test our knowledge through 50 general culture questions from
+              different fields: art, sport, music, history and others
+            </p>
+            <button class="start-btn">Start Quiz</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Popup information for quiz guide -->
+    <div class="popup-info">
+      <h2>Quiz Guide</h2>
+      <span class="info">1. There are 50 questions.</span>
+      <span class="info">2. There is only one correct answer.</span>
+      <span class="info">3. Dont rush, you have all the time you need.</span>
+      <span class="info">4. And the most important rule... have fun.</span>
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+      </div>
+    </div>
+
+    <!-- Scripts for quiz functionality -->
+    <script src="JavaScript/questions.js"></script>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
