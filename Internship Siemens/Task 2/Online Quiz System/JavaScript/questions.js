@@ -73,20 +73,26 @@ let questions = [
   },
   {
     id: 9,
-    question: "Who developed the theory of relativity?",
-    answer: "A. Albert Einstein",
+    question:
+      "What scientist is known for the theory of evolution by natural selection?",
+    answer: "B. Charles Darwin",
     options: [
-      "A. Albert Einstein",
-      "B. Isaac Newton",
-      "C. Galileo Galilei",
-      "D. Nikola Tesla",
+      "A. Gregor Mendel",
+      "B. Charles Darwin",
+      "C. Marie Curie",
+      "D. Louis Pasteur",
     ],
   },
   {
     id: 10,
-    question: "Which country is known as the 'Land of the Rising Sun'?",
-    answer: "C. Japan",
-    options: ["A. China", "B. South Korea", "C. Japan", "D. Vietnam"],
+    question: "Who is known as the 'Father of Modern Physics'?",
+    answer: "A. Albert Einstein",
+    options: [
+      "A. Albert Einstein",
+      "B. Isaac Newton",
+      "C. Niels Bohr",
+      "D. Max Planck",
+    ],
   },
   {
     id: 11,
@@ -96,9 +102,9 @@ let questions = [
   },
   {
     id: 12,
-    question: "In what year did the Titanic sink?",
-    answer: "B. 1912",
-    options: ["A. 1905", "B. 1912", "C. 1923", "D. 1931"],
+    question: "What is the capital city of Mongolia?",
+    answer: "C. Ulaanbaatar",
+    options: ["A. Astana", "B. Dushanbe", "C. Ulaanbaatar", "D. Tashkent"],
   },
   {
     id: 13,
@@ -135,26 +141,33 @@ let questions = [
   },
   {
     id: 16,
-    question: "What is the smallest prime ider?",
-    answer: "A. 2",
-    options: ["A. 2", "B. 1", "C. 3", "D. 5"],
+    question:
+      "In what year was the first successful human heart transplant performed?",
+    answer: "B. 1967",
+    options: ["A. 1955", "B. 1967", "C. 1973", "D. 1982"],
   },
   {
     id: 17,
-    question: "Who is known as the 'Father of Computer Science'?",
-    answer: "C. Alan Turing",
+    question: "Which scientist is credited with the discovery of the electron?",
+    answer: "A. J.J. Thomson",
     options: [
-      "A. Bill Gates",
-      "B. Steve Jobs",
-      "C. Alan Turing",
-      "D. Tim Berners-Lee",
+      "A. J.J. Thomson",
+      "B. Marie Curie",
+      "C. Max Planck",
+      "D. Werner Heisenberg",
     ],
   },
   {
     id: 18,
-    question: "What is the largest mammal in the world?",
-    answer: "D. Blue Whale",
-    options: ["A. Elephant", "B. Giraffe", "C. Gorilla", "D. Blue Whale"],
+    question:
+      "Which mathematical constant is an irrational number and is approximately equal to 3.14159?",
+    answer: "A. Pi (π)",
+    options: [
+      "A. Pi (π)",
+      "B. Euler's Number (e)",
+      "C. Golden Ratio (φ)",
+      "D. Imaginary Unit (i)",
+    ],
   },
   {
     id: 19,
@@ -164,20 +177,21 @@ let questions = [
   },
   {
     id: 20,
-    question: "What is the largest planet in our solar system?",
-    answer: "A. Jupiter",
-    options: ["A. Jupiter", "B. Saturn", "C. Uranus", "D. Neptune"],
+    question:
+      "Which physicist developed the theory of quantum electrodynamics and received the Nobel Prize in Physics in 1965?",
+    answer: "C. Richard Feynman",
+    options: [
+      "A. Max Planck",
+      "B. Werner Heisenberg",
+      "C. Richard Feynman",
+      "D. Paul Dirac",
+    ],
   },
   {
     id: 21,
-    question: "Who wrote 'Pride and Prejudice'?",
-    answer: "A. Jane Austen",
-    options: [
-      "A. Jane Austen",
-      "B. Charlotte Brontë",
-      "C. Emily Dickinson",
-      "D. Virginia Woolf",
-    ],
+    question: "What is the capital city of Bhutan?",
+    answer: "C. Thimphu",
+    options: ["A. Kathmandu", "B. Ulaanbaatar", "C. Thimphu", "D. Colombo"],
   },
   {
     id: 22,
@@ -215,9 +229,9 @@ let questions = [
   },
   {
     id: 26,
-    question: "Who is known as the 'Queen of Pop'?",
-    answer: "C. Madonna",
-    options: ["A. Beyoncé", "B. Rihanna", "C. Madonna", "D. Lady Gaga"],
+    question: "What is the capital city of Argentina?",
+    answer: "A. Buenos Aires",
+    options: ["A. Buenos Aires", "B. Rio de Janeiro", "C. Santiago", "D. Lima"],
   },
   {
     id: 27,
@@ -289,9 +303,14 @@ let questions = [
   },
   {
     id: 35,
-    question: "Which country is known as the 'Land of the Rising Sun'?",
-    answer: "C. Japan",
-    options: ["A. China", "B. South Korea", "C. Japan", "D. Vietnam"],
+    question: "Who is the author of the play 'Hamlet'?",
+    answer: "C. William Shakespeare",
+    options: [
+      "A. Jane Austen",
+      "B. Charles Dickens",
+      "C. William Shakespeare",
+      "D. F. Scott Fitzgerald",
+    ],
   },
   {
     id: 36,
@@ -352,14 +371,9 @@ let questions = [
   },
   {
     id: 43,
-    question: "Who painted 'Starry Night'?",
-    answer: "C. Vincent van Gogh",
-    options: [
-      "A. Claude Monet",
-      "B. Pablo Picasso",
-      "C. Vincent van Gogh",
-      "D. Salvador Dalí",
-    ],
+    question: "What is the capital city of Azerbaijan?",
+    answer: "B. Baku",
+    options: ["A. Tbilisi", "B. Baku", "C. Yerevan", "D. Ashgabat"],
   },
   {
     id: 44,
